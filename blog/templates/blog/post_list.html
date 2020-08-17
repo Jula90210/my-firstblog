@@ -6,6 +6,7 @@
         <div>
             <h1><a href="/">Sprawdzone Przepisy</a></h1>
         </div>
+        {% for post in posts %}
         	<ul>
         		<li><a href="ciasta-info">Ciasta i torty</a></li>
         		<li><a href="desery-info">Babeczki i muffiny</a>
@@ -61,5 +62,6 @@
 <br><strong>Sposób wykonania:</strong></br>
 <br>Kukurydzę, seler oraz drobno posiekaną paprykę i cebulę zalać w garnku zimną wodą (tak, aby przykrywała tylko warzywa), dodać koncentrat, doprawić solą i pieprzem,gotować na małym ogniu, aż jarzyny zmiekną. Z masła i mąki zrobić zasmażkę, dolewać mleko. Połączyć z zupą, dodać ser i mieloną paprykę.</br></p>
         </div>
+    {% endfor %}
     </body>
 </html>
